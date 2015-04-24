@@ -50,3 +50,5 @@ ngRouteApp.config(function($routeProvider, $locationProvider) {
         });
 });
 </pre></code>
+5. Now add `<ng-view></ng-view>` to the place where the views content needs to be shown.
+6. Now if you add home after the url, you will go to the root. When adding about, you see the about content.

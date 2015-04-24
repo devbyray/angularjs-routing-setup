@@ -266,6 +266,10 @@ e.$validators.maxlength=function(a,c){return 0>f||e.$isEmpty(c)||c.length<=f}}}}
     m);return s}]});var B=d.$$minErr("ngRoute");p.provider("$routeParams",function(){this.$get=function(){return{}}});p.directive("ngView",v);p.directive("ngView",A);v.$inject=["$route","$anchorScroll","$animate"];A.$inject=["$compile","$controller","$route"]})(window,window.angular);
 //# sourceMappingURL=angular-route.min.js.map
 /**
+ * Created by raymons on 24-4-15.
+ */
+
+/**
  * Created by raymons on 27-3-15.
  */
 (function(window, document, undefined) {
@@ -291,4 +295,4 @@ ngRouteApp.config(function($routeProvider, $locationProvider) {
         .otherwise({
             redirectTo: '/'
         });
-})
+});
